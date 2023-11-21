@@ -24,9 +24,40 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 30px;
+	border-style: dotted;
+}
+th, td {
+	background-color: black;
+	border-color: red;
+}
+
+th {
+	text-align:center;
+}
+
+
+<!-- Padding
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+} -->
+
+<!-- Cell spacing
+table {
+  border-spacing: 30px;
+} -->
+
 </style>
 <head>
 <title>W3S Tutorial</title>
+<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 
 <body style="background-color:powderblue;">
@@ -320,9 +351,79 @@ a:active {
 		<img src="img_beatles.gif" alt="Beatles" style="width:auto;">
 	</picture>
 	-->
-	
-	
-	
+	<br><br>
+<table style="width:50%">
+  <tr>
+    <th>Company</th>
+    <th style="width:30%">Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr style="height:30px;">
+    <td>Schneider Electric</td>
+    <td>Ralf Bjorn</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>ViK Iovkovtsi</td>
+    <td>Gosho Karatista</td>
+    <td>Bulgaria</td>
+  </tr>
+</table>
+
+<br><br>
+<table style="width:10%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+<br><br>
+
+<!-- Colspan -->
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+<br><br>
+
+<!-- Rowspan -->
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+</tr>
+</table>
+<br><br>
+
+
 </body>
 </html>
 	
