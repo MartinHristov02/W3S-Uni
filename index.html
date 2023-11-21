@@ -32,7 +32,7 @@ table, th, td {
 	border-style: dotted;
 }
 th, td {
-	background-color: black;
+	background-color: purple;
 	border-color: red;
 }
 
@@ -40,6 +40,29 @@ th {
 	text-align:center;
 }
 
+tr:nth-child(even) {
+  background-color: #8cfc03;
+}
+
+td:nth-child(even), th:nth-child(even) {
+  background-color: #9e9090;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5bf42;}
+
+<!-- RBGA variant (A = Alpha = transparency)
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+-->
 
 <!-- Padding
 th, td {
@@ -423,6 +446,45 @@ table {
 </table>
 <br><br>
 
+
+<!-- Table color grouping
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+... 
+Legal CSS properties:
+width, visibility, background, border
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+    <col span="3" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+... 
+-->
+<!-- Empty Colgroups
+<table>
+  <colgroup>
+    <col span="3">
+    <col span="2" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+... -->
 
 </body>
 </html>
