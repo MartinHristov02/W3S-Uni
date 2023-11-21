@@ -77,6 +77,20 @@ table {
   border-spacing: 30px;
 } -->
 
+div {
+  width:300px;
+  margin:auto;
+}
+
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+
 </style>
 <head>
 <title>W3S Tutorial</title>
@@ -485,6 +499,141 @@ width, visibility, background, border
     <th>WED</th>
     <th>THU</th>
 ... -->
+
+<!-- Hiding columns
+<table>
+  <colgroup>
+    <col span="2">
+    <col span="3" style="visibility: collapse">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+... 
+-->
+
+<ul>
+	<li>Milk</li>
+	<li>Coffee</li>
+	<li>Coke</li>
+</ul>
+
+
+<ol>
+	<li>Coke</li>
+	<li>Fanta</li>
+	<li>Sprite</li>
+</ol>
+
+<dl>
+	<dt>Coke</dt>
+	<dd>-Black carbonated drink</dd>
+	<dt>Milk</dt>
+	<dd>-Homelander's favorite</dd>
+	
+<!-- Different item markers:
+<ul style="list-style-type:disc/circle/square/none;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
+-->
+<br><br>
+<!-- Nested lists: -->
+ <ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+<!-- Horizontal list, for a navigation menu, for example:
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html> 
+-->
+<!-- Ordered list type attribute
+ <ol type="1"(numbers)/"A"(uppercase)/"a"(lowercase)/"I"(uppercase roman numbers)/"i"(lowercase roman numbers)>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+-->
+<br><br>
+<!-- Controlling list counting -->
+ <ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+<br><br>
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div> 
+
+<div>
+  <h2>Oslo</h2>
+  <p>Oslo is the capital city of Norway.</p>
+  <p>Oslo has over 600.000 inhabitants.</p>
+</div>
+
+<div>
+  <h2>Rome</h2>
+  <p>Rome is the capital city of Italy.</p>
+  <p>Rome has almost 3 million inhabitants.</p>
+</div>
+
+<br><br>
+
+<p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes
+and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+
+
 
 </body>
 </html>
