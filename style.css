@@ -1,0 +1,90 @@
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-radius: 30px;
+	border-style: dotted;
+}
+th, td {
+	background-color: purple;
+	border-color: red;
+}
+
+th {
+	text-align:center;
+}
+
+tr:nth-child(even) {
+  background-color: #8cfc03;
+}
+
+td:nth-child(even), th:nth-child(even) {
+  background-color: #9e9090;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5bf42;}
+
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+/* Padding
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+} */
+
+/* Cell spacing
+table {
+  border-spacing: 30px;
+} */
+
+div {
+  width:300px;
+  margin:auto;
+}
+
+.cities {
+    width: 100%;
+}
+
+.cities div {
+    float: left;
+    margin: 20px;
+}

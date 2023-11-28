@@ -1,113 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
 
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-	border-radius: 30px;
-	border-style: dotted;
-}
-th, td {
-	background-color: purple;
-	border-color: red;
-}
-
-th {
-	text-align:center;
-}
-
-tr:nth-child(even) {
-  background-color: #8cfc03;
-}
-
-td:nth-child(even), th:nth-child(even) {
-  background-color: #9e9090;
-}
-
-tr {
-  border-bottom: 1px solid #ddd;
-}
-
-tr:hover {background-color: #f5bf42;}
-
-<!-- RBGA variant (A = Alpha = transparency)
-tr:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
-
-th:nth-child(even),td:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
--->
-
-<!-- Padding
-th, td {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 40px;
-} -->
-
-<!-- Cell spacing
-table {
-  border-spacing: 30px;
-} -->
-
-div {
-  width:300px;
-  margin:auto;
-}
-
-.mycontainer {
-  width:100%;
-  overflow:auto;
-}
-.mycontainer div {
-  width:33%;
-  float:left;
-}
-
-</style>
 <head>
-<title>W3S Tutorial</title>
-<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<title>W3S Tutorial</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body style="background-color:powderblue;">
 	<h1 style="background-color:purple;">Tutorial prototype</h1>
 	<p>just messing around</p>
 	<hr>
-	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Go ahead and find out" target="_blank" style="font-family:Comic Sans MS;">Random link</a>
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Go ahead and find out" target="_blank"
+		style="font-family:Comic Sans MS;">Random link</a>
 	<p style="background-color:green;">Messing a bit more around trying to <br> break the line lmao</p>
-	<img src="/images/img_girl.jpg" width="500" height="600" alt="Girl with a jacket"> <!-- broken line, only for tutorial purposes -->
+	<img src="/images/img_girl.jpg" width="500" height="600" alt="Girl with a jacket">
+	<!-- broken line, only for tutorial purposes -->
 	<p style="color:red; font-size:75%;">The picture part of the code is broken</p>
 	<hr>
 	<h2 style="font-size:60px; text-align:center;">Bigger heading 'cause why not</h2>
-	
+
 	<pre>
 	My Bonnie lies over the ocean.
 
@@ -129,51 +41,56 @@ div {
 	<small>The Garfield movie trailer is out</small>
 	<br>
 	<p>Homelander loves <mark>milk</mark> a lot.</p>
-	
+
 	<p>Why am I being <del>del-</del> deleted?</p>
-	
+
 	<p>When is <ins>The Boys</ins>'s season 4 coming out, man?</p>
-	
+
 	<p>Why am I like <sub>this?</sub></p>
 	<p>And why am <i>I</i> like <sup>this?</sup></p>
-	
+
 	<p>Here is a quote from WWF's website:</p>
 	<blockquote cite="http://www.worldwildlife.org/who/index.html">
-	For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
-	<i>I am too lazy to add my own quote rn</i>
+		For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization,
+		WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and
+		deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+		<i>I am too lazy to add my own quote rn</i>
 	</blockquote>
-	
+
 	<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q> ok boomer</p>
 	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-	
+
 	<address>
-	Written by idk who tbh :/<br>
-	Visit us at: nowhere<br>
-	Exampleche.bg<br>
-	Box 20, Veliko Turnovo<br>
-	Bulgaria<br>
+		Written by idk who tbh :/<br>
+		Visit us at: nowhere<br>
+		Exampleche.bg<br>
+		Box 20, Veliko Turnovo<br>
+		Bulgaria<br>
 	</address>
-	
+
 	<p><cite>ur mum</cite> by me. Painted in 1969.</p>
-	
+
 	<bdo dir="rtl">wooo i am backwards siuuuuu</bdo>
-	
+
 	<!--
 	<p>Look at this cool image:</p>
 	<img border="0" src="pic_trulli.jpg" alt="Trulli">
 	-->
 	<p> What the <!-- hell --> is going on?</p>
-	
+
 	<p style="border:2px solid Tomato;">Hello World</p>
-	
+
 	<p style="background-color:rgb(255, 99, 71);">bim</p>
 	<p style="background-color:#ff6347;">bim</p>
-	<p style="background-color:hsl(9, 100%, 64%);">bam<p>
+	<p style="background-color:hsl(9, 100%, 64%);">bam
+	</p>
 
-	<p style="background-color:rgba(255, 99, 71, 0.5);">bam<p>
-	<p style="background-color:hsla(9, 100%, 64%, 0.5);">umbra<p>
-	
-	<!-- Internal CSS example:
+	<p style="background-color:rgba(255, 99, 71, 0.5);">bam
+	</p>
+	<p style="background-color:hsla(9, 100%, 64%, 0.5);">umbra
+	</p>
+
+		<!-- Internal CSS example:
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -190,8 +107,8 @@ div {
 
 	</body>
 	</html> -->
-	
-	<!-- External CSS example:
+
+		<!-- External CSS example:
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -204,8 +121,8 @@ div {
 
 	</body>
 	</html> -->
-	
-	<!-- External CSS file example:
+
+		<!-- External CSS file example:
 	body {
 	background-color: powderblue;
 	}
@@ -216,8 +133,8 @@ div {
 	color: red;
 	}
 	-->
-	
-	<!-- Colors, fonts and sizes example:
+
+		<!-- Colors, fonts and sizes example:
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -241,28 +158,28 @@ div {
 
 	</body>
 	</html> -->
-	
-	<!-- Borders example:
+
+		<!-- Borders example:
 	p {
 	border: 2px solid tomato;
 	}
 	-->
-	
-	<!-- Padding example:
+
+		<!-- Padding example:
 	p {
 	border: 2px solid tomato;
 	padding: 30px;
 	}
 	-->
-	
-	<!-- Margin example:
+
+		<!-- Margin example:
 	p {
 	border: 2px solid tomato;
 	margin: 50px;
 	}
 	-->
-	
-	<!-- Links to external CSS examples:
+
+		<!-- Links to external CSS examples:
 	Full URL:
 	<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
 	
@@ -272,7 +189,7 @@ div {
 	Located in the same folder:
 	<link rel="stylesheet" href="styles.css">
 	-->
-	
+
 	<p>Absolute URLs</p>
 	<p><a href="https://www.w3.org/">W3C</a></p>
 	<p><a href="https://www.google.com/">Google</a></p>
@@ -280,14 +197,14 @@ div {
 	<p>Relative URLs</p> <!-- Broken part of the code again, tutorial purposes only -->
 	<p><a href="html_images.asp">HTML Images</a></p>
 	<p><a href="/css/default.asp">CSS Tutorial</a></p>
-	
+
 	<p style="color:red;">Both are broken, don't bother</p>
-	
+
 	<a href="mailto:urmum123@abv.bg" style="color:orange;">Send an email</p>
-	
-	<button onclick="document.location='default.asp'">HTML Tutorial</button>
-	
-	<!-- Link button example
+
+		<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+		<!-- Link button example
 	<style>
 	a:link, a:visited {
 		background-color: #f44336;
@@ -303,31 +220,31 @@ div {
 	}
 	</style>
 	-->
-	<br>
-	
-	<h3 id="C4">Chapter 4</h3>
-	<a href="#C4">Jump to Chapter 4</a>
-	
-	<!-- <a href="html_demo.html#C4">Jump to Chapter 4</a> -->
-	
-	<!-- Alternative to setting width and height to pictures:
+		<br>
+
+		<h3 id="C4">Chapter 4</h3>
+		<a href="#C4">Jump to Chapter 4</a>
+
+		<!-- <a href="html_demo.html#C4">Jump to Chapter 4</a> -->
+
+		<!-- Alternative to setting width and height to pictures:
 	<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
 	-->
-	
-	<!-- Image as a link -->
-	<a href="default.asp">
-	<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-	</a>
-	<p style="color:red;">Also broken for some reason...</p>
-	
-	<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
-	The image will float to the right of the text.</p>
 
-	<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
-	The image will float to the left of the text.</p>
-	<p style="color:red">Another part broken</p>
-	
-	<!-- Image map:
+		<!-- Image as a link -->
+		<a href="default.asp">
+			<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+		</a>
+		<p style="color:red;">Also broken for some reason...</p>
+
+		<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+			The image will float to the right of the text.</p>
+
+		<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+			The image will float to the left of the text.</p>
+		<p style="color:red">Another part broken</p>
+
+		<!-- Image map:
 	<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
 
 	<map name="workmap">
@@ -336,8 +253,8 @@ div {
 		<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
 	</map>
 	-->
-	
-	<!-- How to find the coordinates of different shapes:
+
+		<!-- How to find the coordinates of different shapes:
 	<area shape="rect" coords="34, 44, 270, 350" href="computer.htm"> From one edge to its diagonal edge
 	<area shape="circle" coords="337, 300, 44" href="coffee.htm"> Centre and radius
 	<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm"> X and Y coordinates of the edges of the croissant
@@ -352,18 +269,20 @@ div {
 		alert("You clicked the coffee cup!");
 	}
 	</script>
+	-->
 	
 	<!-- Background image through HTML:
 	<p style="background-image: url('img_girl.jpg');">
 	-->
-	
-	<!-- Background image through CSS:
+
+		<!-- Background image through CSS:
 	<style>
 	p {
 		background-image: url('img_girl.jpg');
 	}
 	</style>
-	
+	-->
+
 	<!-- Background image through CSS for the whole page:
 	<style>
 	body {
@@ -373,6 +292,7 @@ div {
 		background-size: cover;
 	}
 	</style>
+	-->
 	
 	<!-- Shows different image sizes for different screen sizes:
 	<picture>
@@ -380,7 +300,7 @@ div {
 		<source media="(min-width: 465px)" srcset="img_car.jpg">
 		<img src="img_girl.jpg">
 	</picture>
-	
+	-->
 	<!-- Using the first image format the browser recognizes:
 	<picture>
 		<source srcset="img_avatar.png">
@@ -388,80 +308,80 @@ div {
 		<img src="img_beatles.gif" alt="Beatles" style="width:auto;">
 	</picture>
 	-->
-	<br><br>
-<table style="width:50%">
-  <tr>
-    <th>Company</th>
-    <th style="width:30%">Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr style="height:30px;">
-    <td>Schneider Electric</td>
-    <td>Ralf Bjorn</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>ViK Iovkovtsi</td>
-    <td>Gosho Karatista</td>
-    <td>Bulgaria</td>
-  </tr>
-</table>
+		<br><br>
+		<table style="width:50%">
+			<tr>
+				<th>Company</th>
+				<th style="width:30%">Contact</th>
+				<th>Country</th>
+			</tr>
+			<tr style="height:30px;">
+				<td>Schneider Electric</td>
+				<td>Ralf Bjorn</td>
+				<td>Germany</td>
+			</tr>
+			<tr>
+				<td>ViK Iovkovtsi</td>
+				<td>Gosho Karatista</td>
+				<td>Bulgaria</td>
+			</tr>
+		</table>
 
-<br><br>
-<table style="width:10%">
-  <caption>Monthly savings</caption>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$50</td>
-  </tr>
-</table>
-<br><br>
+		<br><br>
+		<table style="width:10%">
+			<caption>Monthly savings</caption>
+			<tr>
+				<th>Month</th>
+				<th>Savings</th>
+			</tr>
+			<tr>
+				<td>January</td>
+				<td>$100</td>
+			</tr>
+			<tr>
+				<td>February</td>
+				<td>$50</td>
+			</tr>
+		</table>
+		<br><br>
 
-<!-- Colspan -->
-<table>
-  <tr>
-    <th colspan="2">Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>43</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>57</td>
-  </tr>
-</table>
-<br><br>
+		<!-- Colspan -->
+		<table>
+			<tr>
+				<th colspan="2">Name</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Jill</td>
+				<td>Smith</td>
+				<td>43</td>
+			</tr>
+			<tr>
+				<td>Eve</td>
+				<td>Jackson</td>
+				<td>57</td>
+			</tr>
+		</table>
+		<br><br>
 
-<!-- Rowspan -->
-<table>
-  <tr>
-    <th>Name</th>
-    <td>Jill</td>
-  </tr>
-  <tr>
-    <th rowspan="2">Phone</th>
-    <td>555-1234</td>
-  </tr>
-  <tr>
-    <td>555-8745</td>
-</tr>
-</table>
-<br><br>
+		<!-- Rowspan -->
+		<table>
+			<tr>
+				<th>Name</th>
+				<td>Jill</td>
+			</tr>
+			<tr>
+				<th rowspan="2">Phone</th>
+				<td>555-1234</td>
+			</tr>
+			<tr>
+				<td>555-8745</td>
+			</tr>
+		</table>
+		<br><br>
 
 
-<!-- Table color grouping
+		<!-- Table color grouping
 <table>
   <colgroup>
     <col span="2" style="background-color: #D6EEEE">
@@ -487,7 +407,7 @@ width, visibility, background, border
     <th>THU</th>
 ... 
 -->
-<!-- Empty Colgroups
+		<!-- Empty Colgroups
 <table>
   <colgroup>
     <col span="3">
@@ -500,7 +420,7 @@ width, visibility, background, border
     <th>THU</th>
 ... -->
 
-<!-- Hiding columns
+		<!-- Hiding columns
 <table>
   <colgroup>
     <col span="2">
@@ -514,46 +434,46 @@ width, visibility, background, border
 ... 
 -->
 
-<ul>
-	<li>Milk</li>
-	<li>Coffee</li>
-	<li>Coke</li>
-</ul>
+		<ul>
+			<li>Milk</li>
+			<li>Coffee</li>
+			<li>Coke</li>
+		</ul>
 
 
-<ol>
-	<li>Coke</li>
-	<li>Fanta</li>
-	<li>Sprite</li>
-</ol>
+		<ol>
+			<li>Coke</li>
+			<li>Fanta</li>
+			<li>Sprite</li>
+		</ol>
 
-<dl>
-	<dt>Coke</dt>
-	<dd>-Black carbonated drink</dd>
-	<dt>Milk</dt>
-	<dd>-Homelander's favorite</dd>
-	
-<!-- Different item markers:
+		<dl>
+			<dt>Coke</dt>
+			<dd>-Black carbonated drink</dd>
+			<dt>Milk</dt>
+			<dd>-Homelander's favorite</dd>
+
+			<!-- Different item markers:
 <ul style="list-style-type:disc/circle/square/none;">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> 
 -->
-<br><br>
-<!-- Nested lists: -->
- <ul>
-  <li>Coffee</li>
-  <li>Tea
-    <ul>
-      <li>Black tea</li>
-      <li>Green tea</li>
-    </ul>
-  </li>
-  <li>Milk</li>
-</ul>
+			<br><br>
+			<!-- Nested lists: -->
+			<ul>
+				<li>Coffee</li>
+				<li>Tea
+					<ul>
+						<li>Black tea</li>
+						<li>Green tea</li>
+					</ul>
+				</li>
+				<li>Milk</li>
+			</ul>
 
-<!-- Horizontal list, for a navigation menu, for example:
+			<!-- Horizontal list, for a navigation menu, for example:
  <!DOCTYPE html>
 <html>
 <head>
@@ -595,46 +515,48 @@ li a:hover {
 </body>
 </html> 
 -->
-<!-- Ordered list type attribute
+			<!-- Ordered list type attribute
  <ol type="1"(numbers)/"A"(uppercase)/"a"(lowercase)/"I"(uppercase roman numbers)/"i"(lowercase roman numbers)>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol>
 -->
-<br><br>
-<!-- Controlling list counting -->
- <ol start="50">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol> 
-<br><br>
+			<br><br>
+			<!-- Controlling list counting -->
+			<ol start="50">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+			<br><br>
 
-<div style="background-color:black;color:white;padding:20px;">
-  <h2>London</h2>
-  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-</div> 
+			<div class="cities">
+				<div style="background-color:black;color:white;padding:20px;">
+					<h2>London</h2>
+					<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a
+						metropolitan area of over 13 million inhabitants.</p>
+				</div>
 
-<div>
-  <h2>Oslo</h2>
-  <p>Oslo is the capital city of Norway.</p>
-  <p>Oslo has over 600.000 inhabitants.</p>
-</div>
+				<div>
+					<h2>Oslo</h2>
+					<p>Oslo is the capital city of Norway.</p>
+					<p>Oslo has over 600.000 inhabitants.</p>
+				</div>
 
-<div>
-  <h2>Rome</h2>
-  <p>Rome is the capital city of Italy.</p>
-  <p>Rome has almost 3 million inhabitants.</p>
-</div>
+				<div>
+					<h2>Rome</h2>
+					<p>Rome is the capital city of Italy.</p>
+					<p>Rome has almost 3 million inhabitants.</p>
+				</div>
+			</div>
+			<br><br>
 
-<br><br>
-
-<p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes
-and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+			<p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes
+				and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
 
 
 
 </body>
+
 </html>
-	
